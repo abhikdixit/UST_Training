@@ -12,7 +12,8 @@ import org.testng.annotations.Test;
 
 public class Guru99_Login {
 private	WebDriver driver;
-  @Test
+//@Test is Annotation of TestNG  
+@Test
   @Parameters({"uname","password"})
   public void Guru_Login(String uname,String password) {
 
