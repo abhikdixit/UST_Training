@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [TestSuite]">
+  <parameter name="password" value="yhUnAze"/>
+  <parameter name="uname" value="mngr58828"/>
+  <test name="testGuru(failed)">
+    <parameter name="password" value="yhUnAze"/>
+    <parameter name="uname" value="mngr58828"/>
+    <classes>
+      <class name="demo_package.Guru99_Login">
+        <methods>
+          <include name="Guru_Login" invocation-numbers="0"/>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- demo_package.Guru99_Login -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

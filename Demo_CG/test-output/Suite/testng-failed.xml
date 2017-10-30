@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Regression suite 2(failed)">
+    <classes>
+      <class name="demo_package.Login_TestNG">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- demo_package.Login_TestNG -->
+      <class name="demo_package.Guru99_Login">
+        <methods>
+          <include name="Guru_Login"/>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- demo_package.Guru99_Login -->
+    </classes>
+  </test> <!-- Regression suite 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Regression suite 1" >
+<classes>
+<class name="demo_package.Login_TestNG"/>
+</classes>
+</test>
+<test name="Regression suite 2" >
+<classes>
+<class name="demo_package.Guru99_Login"/>
+</classes>
+</test>
+</suite>

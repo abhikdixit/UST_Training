@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53821" started-at="2017-09-15T12:40:40Z" finished-at="2017-09-15T12:41:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53821" started-at="2017-09-15T12:40:40Z" finished-at="2017-09-15T12:41:34Z">
+      <class name="demo_package.ReadDataFromExcel">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo_package.ReadDataFromExcel@42d80b78]" name="beforeMethod" is-config="true" duration-ms="12068" started-at="2017-09-15T18:10:41Z" finished-at="2017-09-15T18:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginApp(java.lang.String, java.lang.String)[pri:0, instance:demo_package.ReadDataFromExcel@42d80b78]" name="LoginApp" duration-ms="6723" started-at="2017-09-15T18:10:53Z" data-provider="LoginData" finished-at="2017-09-15T18:11:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo_package.ReadDataFromExcel@42d80b78]" name="beforeMethod" is-config="true" duration-ms="11453" started-at="2017-09-15T18:11:00Z" finished-at="2017-09-15T18:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginApp(java.lang.String, java.lang.String)[pri:0, instance:demo_package.ReadDataFromExcel@42d80b78]" name="LoginApp" duration-ms="6037" started-at="2017-09-15T18:11:11Z" data-provider="LoginData" finished-at="2017-09-15T18:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo_package.ReadDataFromExcel@42d80b78]" name="beforeMethod" is-config="true" duration-ms="11247" started-at="2017-09-15T18:11:17Z" finished-at="2017-09-15T18:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginApp(java.lang.String, java.lang.String)[pri:0, instance:demo_package.ReadDataFromExcel@42d80b78]" name="LoginApp" duration-ms="5066" started-at="2017-09-15T18:11:28Z" data-provider="LoginData" finished-at="2017-09-15T18:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testabhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testabhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+      </class> <!-- demo_package.ReadDataFromExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
