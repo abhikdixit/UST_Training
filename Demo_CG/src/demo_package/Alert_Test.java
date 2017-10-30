@@ -20,6 +20,7 @@ public class Alert_Test {
 		driver.findElement(By.name("cusid")).sendKeys("91761");
 		driver.findElement(By.name("AccSubmit")).click();
 		String errmsg = driver.switchTo().alert().getText();
+		//This is to Print the Error message
 		System.out.println(errmsg);
 		driver.switchTo().alert().dismiss();
 		driver.quit();
