@@ -1,0 +1,25 @@
+From 2a07cba9feec8ffcd035c2e546ad0bbe3a0cc2f8 Mon Sep 17 00:00:00 2001
+From: "ADHARMAN\\adixit" <abhinay.dixit@hotmail.com>
+Date: Tue, 31 Oct 2017 23:35:31 +0530
+Subject: [PATCH] Revert "Added comments for Alert_Test.java file."
+
+This reverts commit 27c9ad45aafe35383dda927032088a7f144b6cb1.
+---
+ Demo_CG/src/demo_package/Alert_Test.java | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/Demo_CG/src/demo_package/Alert_Test.java b/Demo_CG/src/demo_package/Alert_Test.java
+index ce1e0fe..01703bf 100644
+--- a/Demo_CG/src/demo_package/Alert_Test.java
++++ b/Demo_CG/src/demo_package/Alert_Test.java
+@@ -20,7 +20,6 @@ public class Alert_Test {
+ 		driver.findElement(By.name("cusid")).sendKeys("91761");
+ 		driver.findElement(By.name("AccSubmit")).click();
+ 		String errmsg = driver.switchTo().alert().getText();
+-		//This is to Print the Error message
+ 		System.out.println(errmsg);
+ 		driver.switchTo().alert().dismiss();
+ 		driver.quit();
+-- 
+2.14.2.windows.3
+
