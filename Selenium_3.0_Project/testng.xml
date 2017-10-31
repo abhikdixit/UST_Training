@@ -1,0 +1,30 @@
+<<<<<<< HEAD:Demo_CG/testng.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Regression suite 1" >
+<classes>
+<class name="demo_package.Login_TestNG"/>
+</classes>
+</test>
+<test name="Regression suite 2" >
+<classes>
+<class name="demo_package.Guru99_Login"/>
+</classes>
+</test>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Regression suite 1" >
+<classes>
+<class name="demo_selenium_3.HTMLUnit_Driver"/>
+</classes>
+</test>
+<test name="Regression suite 2" >
+<classes>
+<class name="demo_selenium_3.PhantomJS"/>
+</classes>
+</test>
+>>>>>>> Adding Selenium 3.0 project to GitHub:Selenium_3.0_Project/testng.xml
+</suite>
